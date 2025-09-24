@@ -99,7 +99,7 @@ export default function TerminalConversation() {
     <div className="bg-black text-green-500 font-mono min-h-screen flex items-center justify-center p-4 sm:p-8">
       <div className="max-w-4xl w-full">
         <div className="mb-6 sm:mb-8">
-          <h1 className="text-lg sm:text-2xl mb-4 text-green-400 break-words">{">"} Terminal de recrutement...</h1>
+          <h1 className="text-lg sm:text-2xl mb-4 text-green-400 break-words">{">"} Recruitment Terminal...</h1>
         </div>
 
         <div className="space-y-1 sm:space-y-2 text-sm sm:text-base">
@@ -119,9 +119,9 @@ export default function TerminalConversation() {
           {/* Display completion message */}
           {isComplete && (
             <div className="mt-6 sm:mt-8 text-center">
-              <p className="text-green-300 text-lg sm:text-xl">_ Fin de la conversation _</p>
+              <p className="text-green-300 text-lg sm:text-xl">_ End of conversation _</p>
               <p className="text-green-400 mt-4 animate-pulse text-sm sm:text-base break-words">
-                {">"} Connexion établie avec succès...
+                {">"} Connection established successfully...
               </p>
             </div>
           )}
