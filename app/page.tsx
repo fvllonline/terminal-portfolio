@@ -17,7 +17,7 @@ const conversation = [
   { sender: "Response", text: "Yes." },
   { sender: "NAWFAL", text: "Would you like to see my projects and achievements?" },
   { sender: "Response", text: "Yes." },
-  { sender: "NAWFAL", text: "Here is My portfolio: nawfalsportfolio.vercel.app" },
+  { sender: "NAWFAL", text: "Here is My portfolio --> nawfalsportfolio.vercel.app" },
 ]
 
 export default function TerminalConversation() {
